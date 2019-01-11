@@ -22,29 +22,104 @@
         <div class="col-lg-6">
             <div class="text-center">
                 <h2><b>Wijdenken van wel!</b></h2>
-                <p><b>Hypotheek rente is nog nooit zo laag gweest en u profiteert hier momenteel helemaal niet van.</b></p>
+                <p><b>Hypotheek rente is i really don't know what are you trying to write nog nooit zo laag gweest en u profiteert hier momenteel helemaal niet van.</b></p>
                 <h3><b>Waarom eigenlijk niet?!</b></h3>
                 <p><b>Vul uw gegevens in en wij zullen u laten weten u laten weten hoeveel minder u hoeft te betalen.
                     Laar u ook even eenberictje achter zorda u honderden euro's per maand bespaart?</b></p>
             </div>
-        </div>
-        <div class="container">
-            <div class="form-group row justify-content-md-center">
-                <option class="col-form-label col-sm- pt-0">Gender</option>
-                <div class="col-sm-2">
-                    <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" name="gender" value="man" class="custom-control-input">
-                        <label class="custom-control-label" for="male">Male</label>
+            <div class="form-container">
+                <div class="container">
+                    <div class="form-group row justify-content-md-center">
+                        <option class="col-form-label col-sm-4 pt-0">Gender</option>
+                        <div class="col-sm-8">
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" name="gender" id="man" value="man" class="custom-control-input">
+                                <label class="custom-control-label" for="man">Male</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" name="gender" id="women" value="women" class="custom-control-input">
+                                <label class="custom-control-label" for="women">Female</label>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" name="gender" value="women" class="custom-control-input">
-                        <label class="custom-control-label" for="women">female</label>
+                    <div class="form-group row">
+                        <option class="col-form-label col-sm-4 pt-0">Initials+Surnames</option>
+                        <div class="col-sm-8">
+                            <div class="row">
+                                <div class="form-check-inline form-check col-md-4">
+                                    <input class="form-check-input initials" type="text" id="initial">
+                                </div>
+                                <div class="form-check-inline form-check col-sm-4">
+                                    <input type="text" class="form-check-input lastname" id="lastname"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <option class="col-form-label col-sm-4 pt-0"> Date of birth</option>
+                        <div class="col-sm-8">
+                            <div class="row">
+                                <div class="form-check-inline form-group col-3">
+                                    <input type="text" id="month" class="form form-check-input month">
+                                </div>
+                                <div class="form-check-inline form-group col-3">
+                                    <input type="text" id="year" class="form form-check-input year">
+                                </div>
+                                <div class="form-check-inline form-group col-3">
+                                    <input type="text" id="year" class="form form-check-input year">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <option class="col-form-label col-sm-4 pt-0">Street name+House number*</option>
+                        <div class="col-sm-8">
+                            <div class="row">
+                                <div class="form-check-inline col-4">
+                                    <input type="text" id="house" class="form form-check-input streetname">
+                                </div>
+                                <div class="form-check-inline col-4">
+                                    <input type="text" id="house" class="form form-check-input housenumber">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <option class="col-form-label col-sm-4 pt-0">Postcode+Residence</option>
+                        <div class="col-sm-8">
+                            <div class="row">
+                                <div class="form-check-inline col-4">
+                                    <input type="text" name="postcode" class="form-check-input">
+                                </div>
+                                <div class="form-check-inline col-4">
+                                    <input type="text" name="postcode" class="form-check-input">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <option class="col-form-label col-sm-4 pt-0">Telephone*</option>
+                        <div class="col-sm-8">
+                            <div class="row">
+                                <div class="form-check-inline col-8">
+                                    <input type="text" name="telephone" class="form-check-input telephone">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <option class="col-form-label col-sm-4 pt-0">Email</option>
+                        <div class="col-sm-8">
+                            <div class="row">
+                                <div class="form-check-inline col-12">
+                                    <input type="text" name="email" class="form-check-input email">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 </body>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 
 </html>
